@@ -159,11 +159,11 @@
                     @endif
                 </div>
 
-                @if(method_exists($categorias, 'links'))
+                <!-- @if(method_exists($categorias, 'links'))
                     <div class="card-footer bg-white border-top">
                         {{ $categorias->links() }}
                     </div>
-                @endif
+                @endif -->
             </div>
         </div>
     </section>

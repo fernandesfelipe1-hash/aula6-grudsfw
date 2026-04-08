@@ -1,9 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CategoriaController;
+
 
 Route::get('/', function(){
     return view('dashboard');
 });
+
+Route::resource('categorias', CategoriaController::class);
 
 // Route::get('/', [Ecommerce::class, 'index']);
